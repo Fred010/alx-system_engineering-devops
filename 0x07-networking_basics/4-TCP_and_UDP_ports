@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# shows listening ports with regards to listening sockets
+# PID and name of program to which socket belongs
+netstat -tulnep | grep "LISTEN"
