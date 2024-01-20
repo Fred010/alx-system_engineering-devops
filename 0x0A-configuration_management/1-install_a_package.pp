@@ -1,8 +1,5 @@
-# install_flask.pp
-
-package { 'python3-pip':
-  ensure => present,
-}
+#!/usr/bin/pup
+# install specific flas version (2.1.0)
 
 package { 'flask':
   ensure   => '2.1.0',
