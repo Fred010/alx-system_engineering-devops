@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Script that queries the Reddit API and counts the occurrence of keywords
-in the titles of all hot articles for a given subreddit.
+in the titles of all hot articles for a given subreddit
 """
 
 import requests
@@ -9,7 +9,7 @@ from collections import Counter
 
 
 def count_words(subreddit, word_list, after=None, word_count=None):
-    """Recursively count words in hot article titles on a given subreddit."""
+    """Recursively count words in hot article titles on a given subreddit"""
     if word_count is None:
         word_count = Counter()
 
